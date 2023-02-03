@@ -243,6 +243,8 @@ eval "set -- $(
 
 ls -la /data/repo/
 
+git config --global --add safe.directory /data/repo
+
 git remote -v
 git branch -av
 git log
