@@ -242,7 +242,9 @@ eval "set -- $(
     )" '"$@"'
 
 ls -la /data/repo/
-ls -la /data/repo/gradle
-ls -la /data/repo/gradle/wrapper
+
+git remote -v
+git branch -av
+git log
 
 exec "$JAVACMD" "$@"
