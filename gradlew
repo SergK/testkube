@@ -241,6 +241,8 @@ eval "set -- $(
         tr '\n' ' '
     )" '"$@"'
 
+ls -la /data/repo/
+ls -la /data/repo/gradle
 ls -la /data/repo/gradle/wrapper
 
 exec "$JAVACMD" "$@"
